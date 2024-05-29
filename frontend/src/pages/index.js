@@ -1,0 +1,8 @@
+export {default as Home} from './Home'
+export {default as About} from './About'
+export {default as Account} from './Account'
+export {default as ShopItem} from './ShopItem'
+export {default as Cart} from './Cart'
+export {default as Favourites} from './Favourites'
+export {default as SignUp} from './SignUp'
+export {default as SignIn} from './SignIn'

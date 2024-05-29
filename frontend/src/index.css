@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .submitBtn1 {
+        @apply bg-transparent mt-12 border-2 border-orange-600 mx-28 p-2 rounded-xl
+        hover:mx-16 transition-all hover:border-orange-500 hover:bg-orange-500
+    }
+    .regInpt {
+        @apply outline-none bg-transparent border-2 px-2 rounded-md transition-colors
+        hover:border-orange-600 ease-linear font-mono
+    }
+    .icon1 {
+        @apply w-7 h-7 transition-colors hover:text-orange-500 cursor-pointer
+    }
+    .searchInpt {
+        @apply bg-orange-800 transition-all group-hover:bg-orange-600 
+        flex items-center justify-between px-5
+    }
+    .clickToHideSearch {
+        @apply absolute bg-orange-800 top-16 right-96 w-20 h-8 flex flex-col items-center
+        justify-center rounded-b-xl transition-all group-hover:bg-orange-600 origin-top
+        hover:text-white cursor-pointer text-orange-500
+    }
+}
