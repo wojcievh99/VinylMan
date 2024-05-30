@@ -78,6 +78,8 @@ const Cart = () => {
         })
   }
 
+  // I'm tired
+
   return ( 
     <div className='bg-black-500 min-h-screen flex flex-col gap-20 p-20 items-center'>
       <p className='text-white font-bold text-3xl'>Just a few clicks away to buy everything!</p>
